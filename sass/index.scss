@@ -11,9 +11,9 @@ body{
         display: grid;
         grid-gap: 30px;
         grid-template-areas: "header header header"
-                            "cover blank statement"
-                            "cover blank statement"
-                            "cover blank statement"
+                            "cover none statement"
+                            "cover none statement"
+                            "cover none statement"
                             "footer footer footer";
         grid-template-columns: 1fr 1px 1fr;}}
 @import "header";

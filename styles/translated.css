@@ -12,7 +12,7 @@ body {
     margin: auto;
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: "header header header" "cover blank statement" "cover blank statement" "cover blank statement" "footer footer footer";
+    grid-template-areas: "header header header" "cover none statement" "cover none statement" "cover none statement" "footer footer footer";
     grid-template-columns: 1fr 1px 1fr; }
 
 .header {
@@ -57,7 +57,7 @@ body {
   margin-right: 3.5rem;
   border-radius: 6px;
   text-align: justify;
-  grid-area: template;
+  grid-area: statement;
   transition: 30ms; }
   .statement:hover {
     transform: scale(1.05); }
@@ -126,6 +126,9 @@ body {
     display: flex;
     align-self: center; }
   .footer .img__social {
+    transition: 30ms;
     margin: 0.5rem;
     width: 4rem;
     height: 4rem; }
+    .footer .img__social:hover {
+      transform: scale(1.07); }
