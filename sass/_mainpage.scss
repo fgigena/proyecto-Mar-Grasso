@@ -1,19 +1,19 @@
 .cover{
+    grid-area: cover;
     transition: 30ms;
     :hover{
     transform: scale(1.05);}}
     .cover__image{
         margin-left: 3.5rem;
-        display: flex;
         border-radius: $radius;}
 .statement{
     padding: 1.5rem;
     align-self: center;
     background-color: $primary__color;
     margin-right: 3.5rem;
-    display: flex;
     border-radius: $radius;
     text-align: justify;
+    grid-area: template;
     transition: 30ms;
     &:hover{
-    transform: scale(1.05);}}
+    transform: scale(1.05);}} 
