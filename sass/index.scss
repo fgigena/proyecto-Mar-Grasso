@@ -2,6 +2,7 @@
 @import "normalize";
 body{
     background-color:$secondary__color;
+    min-height: 100%;
     .main{
         align-self: center;
         justify-content: center;
@@ -10,9 +11,9 @@ body{
         display: grid;
         grid-gap: 30px;
         grid-template-areas: "header header header"
-                            "main__image none statement"
-                            "main__image none statement"
-                            "main__image none statement"
+                            "cover blank statement"
+                            "cover blank statement"
+                            "cover blank statement"
                             "footer footer footer";
         grid-template-columns: 1fr 1px 1fr;}}
 @import "header";

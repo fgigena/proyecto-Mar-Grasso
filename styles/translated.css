@@ -3,7 +3,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 body {
-  background-color: #66d5d755; }
+  background-color: #66d5d755;
+  min-height: 100%; }
   body .main {
     align-self: center;
     justify-content: center;
@@ -11,7 +12,7 @@ body {
     margin: auto;
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: "header header header" "main__image none statement" "main__image none statement" "main__image none statement" "footer footer footer";
+    grid-template-areas: "header header header" "cover blank statement" "cover blank statement" "cover blank statement" "footer footer footer";
     grid-template-columns: 1fr 1px 1fr; }
 
 .header {
@@ -40,13 +41,13 @@ body {
       font-weight: bold; }
 
 .cover {
+  grid-area: cover;
   transition: 30ms; }
   .cover :hover {
     transform: scale(1.05); }
 
 .cover__image {
   margin-left: 3.5rem;
-  display: flex;
   border-radius: 6px; }
 
 .statement {
@@ -54,9 +55,9 @@ body {
   align-self: center;
   background-color: #66d5d7;
   margin-right: 3.5rem;
-  display: flex;
   border-radius: 6px;
   text-align: justify;
+  grid-area: template;
   transition: 30ms; }
   .statement:hover {
     transform: scale(1.05); }
