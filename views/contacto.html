@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" main="IE=edge">
+    <meta name="viewport" main="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/translated.css">
+    <title>Mar Grasso | Contacto</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <img class="logo" src="../images/logo.jpg" alt="logo">
+            <nav class="nav__menu">
+                <ul class="nav__menu__list">
+                    <li>
+                        <button type="menu" class="btn">
+                            <a href="../index.html"class="nav__link">home</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="menu" class="btn">
+                            <a href="contacto.html"class="nav__link">contacto</a>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="menu" class="btn">
+                            <a href="galeria.html"class="nav__link">galeria</a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="form">
+            <div>
+                <h2 class="form__title">Envianos tu consulta y pronto te responderemos</h2>
+            </div>
+            <form action="submit" method="post">
+                <p>
+                    <label for="nombre" id="etiquetas__formulario">Nombre</label>
+                    <br></br>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+                </p>
+                 <p>
+                    <label for="email" id="etiquetas__formulario">Email</label>
+                    <br></br>
+                    <input type="email" required name="email" placeholder="Escribe tu email"/>
+                </p>
+                <p>
+                    <label for="asunto" id="etiquetas__formulario">Asunto</label>
+                    <br></br>
+                    <input type="text" name="asunto" placeholder="Escribe un asunto"/>
+                </p>
+                <p>
+                    <label for="mensaje" id="etiquetas__formulario">Mensaje</label>
+                    <br></br>
+                    <textarea rows="20" cols="40" name="mensaje" placeholder="Deja aquí tu mensaje"></textarea>
+                </p>
+                    <button type="submit" class="btn__submit" name="enviar">Enviar</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <section class="social">
+                <a href="https://es-la.facebook.com/marinagrassoarte/" class="link__social">
+                    <img class="img__social" src="./images/facebook_ico.svg" alt=""></a>
+                <a href="https://www.instagram.com/mar.grasso" class="link__social">
+                    <img class="img__social" src="./images/instagram_ico.svg" alt=""></a>
+                <a href="https://margrasso.empretienda.com.ar/" class="link__social">
+                    <img class="img__social" src="./images/shopping_ico.svg" alt=""></a>
+            </section>
+            <p class="footer__text">copyright 2022 - todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>

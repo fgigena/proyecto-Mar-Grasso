@@ -1,0 +1,22 @@
+@import "design";
+@import "normalize";
+body{
+    background-color:$secondary__color;
+    .main{
+        align-self: center;
+        justify-content: center;
+        max-width: 1290px;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-areas: "header header header"
+                            "main__image none statement"
+                            "main__image none statement"
+                            "main__image none statement"
+                            "footer footer footer";
+        grid-template-columns: 1fr 1px 1fr;}}
+@import "header";
+@import "mainpage";
+@import "gallery";
+@import "form";
+@import "footer";

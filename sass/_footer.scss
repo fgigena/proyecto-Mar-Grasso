@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    grid-area: footer;
+    background-color: $primary__color;
+    .footer__text{
+        display: flex;
+        justify-self: start;
+        position: absolute;
+        margin-top: 8rem;}
+    .social{
+        display: flex;
+        align-self: center;}
+    .img__social{
+        margin: 0.5rem;
+        width: 4rem;
+        height: 4rem;}}

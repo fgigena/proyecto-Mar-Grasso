@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    grid-area: header;
+    background-color: $primary__color;
+    .logo{
+        height: 12rem;
+        width: 12rem;
+    }
+    .nav__menu__list{
+        display: flex;
+        list-style: none;
+        justify-content:center;}
+        a{
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-size: 1.5rem;
+            color: $terciary__color;}
+        .btn{
+            border: solid 2px $terciary__color;
+            border-radius: $radius;
+            margin: 1rem;
+            display: flex;
+            justify-content: space-between;
+            &:hover{font-weight: bold;}}
+}
