@@ -1,4 +1,9 @@
-$primary__color: #66d5d7;
-$secondary__color: #66d5d755;
-$terciary__color:#10a2a4;
 $radius: 6px;
+$palette:(
+    primary: #66d5d7,
+    secondary: #66d5d755,
+    terciary:#10a2a4,);
+
+@each $palette, $val in $palette{
+    .#{$palette} {
+        background-color: #{$val};}}

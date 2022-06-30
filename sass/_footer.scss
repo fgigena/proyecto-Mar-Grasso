@@ -4,7 +4,7 @@
     height: 10rem;
     width: 100%;
     grid-area: footer;
-    background-color: $primary__color;
+    background-color: map-get($palette, primary);
     .footer__text{
         display: flex;
         position: absolute;
@@ -17,5 +17,4 @@
         &:hover{
         transform: scale(1.07);}
         margin: 0.5rem;
-        width: 4rem;
-        height: 4rem;}}
+        @include sizes(4rem, 4rem);}}

@@ -1,7 +1,8 @@
 @import "design";
 @import "normalize";
+@import "mixins";
 body{
-    background-color:$secondary__color;
+    background-color:map-get($palette, secondary);
     min-height: 100%;
     .main{
         align-self: center;

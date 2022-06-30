@@ -9,7 +9,7 @@
 .statement{
     padding: 1.5rem;
     align-self: center;
-    background-color: $primary__color;
+    background-color: map-get($palette, primary);
     margin-right: 3.5rem;
     border-radius: $radius;
     text-align: justify;
